@@ -1,0 +1,15 @@
+body {
+    background-color: #f8f9fa;
+}
+.pokemon-card {
+    transition: transform 0.2s;
+    text-transform: capitalize;
+}
+.pokemon-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+.type-badge {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
